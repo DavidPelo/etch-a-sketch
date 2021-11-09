@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.etch-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+.column {
+    flex: 1;
+}
