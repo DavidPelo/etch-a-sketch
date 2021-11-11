@@ -10,9 +10,18 @@
 </head>
 <body>
     <div class="container">
-        <h1>Etch-a-sketch</h1>
-        <button class="clear-sketch">Clear Sketch</button>
-        <div class="etch-container">
+        <h1 class="title">Etch-a-sketch</h1>
+        <div class="content-container">
+            <div class="features-container">
+                <button class="clear-sketch">Clear Sketch</button>
+                <div class="size-container">
+                    <p>Resolution</p>
+                    <input type="range" name="size" id="size" min="1" max="100">
+                </div>
+                <input type="color" name="color" id="color">
+            </div>
+            <div class="etch-container">
+            </div>  
         </div>
     </div>
 </body>
